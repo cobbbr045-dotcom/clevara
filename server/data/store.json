@@ -1,0 +1,634 @@
+{
+  "categories": [
+    {
+      "id": "c1000000-0000-0000-0000-000000000001",
+      "name": "Home Cleaning",
+      "slug": "home-cleaning",
+      "description": "Meticulously formulated household, kitchen, and bathroom essentials engineered for effortless cleanliness.",
+      "image_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80",
+      "display_order": 1,
+      "created_at": "2026-11-10T14:45:12.817Z",
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    },
+    {
+      "id": "c2000000-0000-0000-0000-000000000002",
+      "name": "Body Cleaning",
+      "slug": "body-cleaning",
+      "description": "Pure, skin-friendly personal hygiene essentials and accessories crafted for everyday wellbeing.",
+      "image_url": "https://images.unsplash.com/photo-1608248597359-009139268d87?auto=format&fit=crop&w=800&q=80",
+      "display_order": 2,
+      "created_at": "2026-11-10T14:45:12.817Z",
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    },
+    {
+      "id": "c3000000-0000-0000-0000-000000000003",
+      "name": "Car Cleaning",
+      "slug": "car-cleaning",
+      "description": "Professional-grade vehicle exterior wash, interior detailing, and maintenance essentials.",
+      "image_url": "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=800&q=80",
+      "display_order": 3,
+      "created_at": "2026-11-10T14:45:12.817Z",
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "p-1794363779607-oht3bi",
+      "category_id": "c1000000-0000-0000-0000-000000000001",
+      "name": "CLEVARA Heavy Duty Lime & Scale Eliminator",
+      "slug": "clevara-lime-scale-eliminator",
+      "description": "Specially engineered high-density gel that dissolves mineral scaling and water stains.",
+      "selling_price": 720,
+      "original_price": 850,
+      "sku": "CLV-HC-LSE-099",
+      "stock_quantity": 15,
+      "status": "active",
+      "is_featured": true,
+      "specifications": {
+        "Volume": "500 ml",
+        "Formula": "Acid-Safe Gel"
+      },
+      "images": [
+        "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?auto=format&fit=crop&w=800&q=80"
+      ],
+      "created_at": "2026-11-11T02:22:59.607Z",
+      "updated_at": "2026-11-11T02:22:59.607Z"
+    }
+  ],
+  "variants": [
+    {
+      "variant_name": "Citrus Scent",
+      "sku": "CLV-HC-LSE-099-CIT",
+      "stock_quantity": 10,
+      "price_override": 720,
+      "is_active": true,
+      "id": "v-1794363779608-28gweq",
+      "product_id": "p-1794363779607-oht3bi",
+      "created_at": "2026-11-11T02:22:59.607Z",
+      "updated_at": "2026-11-11T02:22:59.610Z"
+    },
+    {
+      "variant_name": "Fragrance Free",
+      "sku": "CLV-HC-LSE-099-RAW",
+      "stock_quantity": 5,
+      "price_override": 720,
+      "is_active": true,
+      "id": "v-1794363779608-jeq6gv",
+      "product_id": "p-1794363779607-oht3bi",
+      "created_at": "2026-11-11T02:22:59.607Z",
+      "updated_at": "2026-11-11T02:22:59.607Z"
+    },
+    {
+      "variant_name": "Limited Batch #1",
+      "sku": "CLV-HC-LSE-099-LIM",
+      "stock_quantity": 0,
+      "price_override": 720,
+      "is_active": true,
+      "id": "v-1794363779614-pfmnur",
+      "product_id": "p-1794363779607-oht3bi",
+      "created_at": "2026-11-11T02:22:59.614Z",
+      "updated_at": "2026-11-11T02:22:59.615Z"
+    }
+  ],
+  "inventory_movements": [
+    {
+      "id": "im-1794321913329-iamtpm",
+      "product_id": "p-1794321913327-bedwae",
+      "variant_id": "v-1794321913327-wne5vn",
+      "change_type": "order_deduction",
+      "quantity": 2,
+      "previous_stock": 10,
+      "new_stock": 8,
+      "reason": "Customer Order CLV-913329-942",
+      "reference_id": "ord-1794321913329-4jkugc",
+      "created_at": "2026-11-10T14:45:13.329Z"
+    },
+    {
+      "id": "im-1794321913332-hoe2pr",
+      "product_id": "p-1794321913327-bedwae",
+      "variant_id": "v-1794321913327-wne5vn",
+      "change_type": "cancellation_restock",
+      "quantity": 2,
+      "previous_stock": 8,
+      "new_stock": 10,
+      "reason": "Restock on Cancellation of Order CLV-913329-942",
+      "reference_id": "ord-1794321913329-4jkugc",
+      "created_at": "2026-11-10T14:45:13.332Z"
+    },
+    {
+      "id": "im-1794321913366-qaql51",
+      "product_id": "p-1794321913327-bedwae",
+      "variant_id": "v-1794321913366-8sh8m5",
+      "change_type": "order_deduction",
+      "quantity": 1,
+      "previous_stock": 1,
+      "new_stock": 0,
+      "reason": "Customer Order CLV-913366-250",
+      "reference_id": "ord-1794321913366-gek69r",
+      "created_at": "2026-11-10T14:45:13.366Z"
+    },
+    {
+      "id": "im-1794327386928-qefrf8",
+      "product_id": "p2000000-0000-0000-0000-000000000002",
+      "variant_id": null,
+      "change_type": "order_deduction",
+      "quantity": 1,
+      "previous_stock": 50,
+      "new_stock": 49,
+      "reason": "Customer Order CLV-386928-373",
+      "reference_id": "ord-1794327386928-j8uigs",
+      "created_at": "2026-11-10T16:16:26.928Z"
+    },
+    {
+      "id": "im-1794363779610-0vt9ph",
+      "product_id": "p-1794363779607-oht3bi",
+      "variant_id": "v-1794363779608-28gweq",
+      "change_type": "order_deduction",
+      "quantity": 2,
+      "previous_stock": 10,
+      "new_stock": 8,
+      "reason": "Customer Order CLV-779610-612",
+      "reference_id": "ord-1794363779610-vegh4u",
+      "created_at": "2026-11-11T02:22:59.610Z"
+    },
+    {
+      "id": "im-1794363779612-we0iwi",
+      "product_id": "p-1794363779607-oht3bi",
+      "variant_id": "v-1794363779608-28gweq",
+      "change_type": "cancellation_restock",
+      "quantity": 2,
+      "previous_stock": 8,
+      "new_stock": 10,
+      "reason": "Restock on Cancellation of Order CLV-779610-612",
+      "reference_id": "ord-1794363779610-vegh4u",
+      "created_at": "2026-11-11T02:22:59.612Z"
+    },
+    {
+      "id": "im-1794363779615-55rzd0",
+      "product_id": "p-1794363779607-oht3bi",
+      "variant_id": "v-1794363779614-pfmnur",
+      "change_type": "order_deduction",
+      "quantity": 1,
+      "previous_stock": 1,
+      "new_stock": 0,
+      "reason": "Customer Order CLV-779615-708",
+      "reference_id": "ord-1794363779615-rq8010",
+      "created_at": "2026-11-11T02:22:59.615Z"
+    }
+  ],
+  "customers": [
+    {
+      "id": "cust-1794321913329-vtczb0",
+      "full_name": "Aarav Shrestha",
+      "email": "aarav.shrestha@example.np",
+      "phone": "+977-9841234567",
+      "city": "Kathmandu",
+      "address": "Baluwatar, House #42",
+      "created_at": "2026-11-10T14:45:13.329Z",
+      "updated_at": "2026-11-10T14:45:13.329Z"
+    },
+    {
+      "id": "cust-1794321913366-ti8zt2",
+      "full_name": "Buyer One",
+      "email": "buyer1@nepal.np",
+      "phone": "+977-9800000001",
+      "city": "Kathmandu",
+      "address": "Thamel",
+      "created_at": "2026-11-10T14:45:13.366Z",
+      "updated_at": "2026-11-10T14:45:13.366Z"
+    },
+    {
+      "id": "cust-1794327386928-gpc71p",
+      "full_name": "XXX",
+      "email": "abc@gmail.com",
+      "phone": "980000000",
+      "city": "Kathmandu",
+      "address": "4",
+      "created_at": "2026-11-10T16:16:26.928Z",
+      "updated_at": "2026-11-10T16:16:26.928Z"
+    }
+  ],
+  "admin_profiles": [
+    {
+      "id": "a1000000-0000-0000-0000-000000000001",
+      "email": "admin@clevara.com",
+      "full_name": "CLEVARA Head of Operations",
+      "role": "super_admin",
+      "password_hash": "$2b$10$Z6jveo4rkQgTxEFnskcvxOMGYGKfA/psa1jopgFamC5R73JdVJRsi",
+      "created_at": "2026-11-10T14:45:12.817Z"
+    }
+  ],
+  "delivery_zones": [
+    {
+      "id": "d1000000-0000-0000-0000-000000000001",
+      "name": "Kathmandu Valley (Inside Ring Road)",
+      "description": "Standard door-to-door delivery inside Ring Road, Kathmandu",
+      "estimated_delivery_time": "1 - 2 Business Days",
+      "fee": 100,
+      "is_active": true,
+      "created_at": "2026-11-10T14:45:12.817Z",
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    },
+    {
+      "id": "d2000000-0000-0000-0000-000000000002",
+      "name": "Kathmandu Valley (Outside Ring Road / Lalitpur / Bhaktapur)",
+      "description": "Doorstep delivery for suburban areas, Lalitpur & Bhaktapur",
+      "estimated_delivery_time": "1 - 2 Business Days",
+      "fee": 150,
+      "is_active": true,
+      "created_at": "2026-11-10T14:45:12.817Z",
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    },
+    {
+      "id": "d3000000-0000-0000-0000-000000000003",
+      "name": "Major Regional Hubs (Pokhara, Chitwan, Biratnagar, Butwal)",
+      "description": "Express courier delivery to major municipal areas outside Kathmandu Valley",
+      "estimated_delivery_time": "2 - 4 Business Days",
+      "fee": 200,
+      "is_active": true,
+      "created_at": "2026-11-10T14:45:12.817Z",
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    },
+    {
+      "id": "d4000000-0000-0000-0000-000000000004",
+      "name": "Rest of Nepal (Nationwide Courier)",
+      "description": "Comprehensive provincial delivery across reachable road & courier networks",
+      "estimated_delivery_time": "3 - 6 Business Days",
+      "fee": 250,
+      "is_active": true,
+      "created_at": "2026-11-10T14:45:12.817Z",
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "ord-1794321913329-4jkugc",
+      "order_number": "CLV-913329-942",
+      "customer_id": "cust-1794321913329-vtczb0",
+      "customer_name": "Aarav Shrestha",
+      "customer_email": "aarav.shrestha@example.np",
+      "customer_phone": "+977-9841234567",
+      "delivery_address": "Baluwatar, House #42",
+      "city": "Kathmandu",
+      "delivery_zone_id": "d1000000-0000-0000-0000-000000000001",
+      "delivery_zone": {
+        "id": "d1000000-0000-0000-0000-000000000001",
+        "name": "Kathmandu Valley (Inside Ring Road)",
+        "description": "Standard door-to-door delivery inside Ring Road, Kathmandu",
+        "estimated_delivery_time": "1 - 2 Business Days",
+        "fee": 100,
+        "is_active": true,
+        "created_at": "2026-11-10T14:45:12.817Z",
+        "updated_at": "2026-11-10T14:45:12.817Z"
+      },
+      "delivery_instructions": "Please call before arrival",
+      "subtotal": 1440,
+      "delivery_fee": 100,
+      "discount_amount": 0,
+      "total_amount": 1540,
+      "payment_method": "cod",
+      "payment_status": "pending",
+      "order_status": "cancelled",
+      "tracking_code": "NP-MF0FXS-5728",
+      "items": [
+        {
+          "id": "oi-1794321913329-ej36ju",
+          "order_id": "ord-1794321913329-4jkugc",
+          "product_id": "p-1794321913327-bedwae",
+          "variant_id": "v-1794321913327-wne5vn",
+          "product_name": "CLEVARA Heavy Duty Lime & Scale Eliminator",
+          "variant_name": "Citrus Scent",
+          "sku": "CLV-HC-LSE-099-CIT",
+          "unit_price": 720,
+          "quantity": 2,
+          "subtotal": 1440,
+          "created_at": "2026-11-10T14:45:13.329Z"
+        }
+      ],
+      "created_at": "2026-11-10T14:45:13.329Z",
+      "updated_at": "2026-11-10T16:36:18.366Z",
+      "admin_notes": "Cancellation approved: Customer contacted within cancellation window"
+    },
+    {
+      "id": "ord-1794321913366-gek69r",
+      "order_number": "CLV-913366-250",
+      "customer_id": "cust-1794321913366-ti8zt2",
+      "customer_name": "Buyer One",
+      "customer_email": "buyer1@nepal.np",
+      "customer_phone": "+977-9800000001",
+      "delivery_address": "Thamel",
+      "city": "Kathmandu",
+      "delivery_zone_id": "d1000000-0000-0000-0000-000000000001",
+      "delivery_zone": {
+        "id": "d1000000-0000-0000-0000-000000000001",
+        "name": "Kathmandu Valley (Inside Ring Road)",
+        "description": "Standard door-to-door delivery inside Ring Road, Kathmandu",
+        "estimated_delivery_time": "1 - 2 Business Days",
+        "fee": 100,
+        "is_active": true,
+        "created_at": "2026-11-10T14:45:12.817Z",
+        "updated_at": "2026-11-10T14:45:12.817Z"
+      },
+      "subtotal": 720,
+      "delivery_fee": 100,
+      "discount_amount": 0,
+      "total_amount": 820,
+      "payment_method": "cod",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "tracking_code": "NP-IZ7376-1456",
+      "items": [
+        {
+          "id": "oi-1794321913366-w5pj88",
+          "order_id": "ord-1794321913366-gek69r",
+          "product_id": "p-1794321913327-bedwae",
+          "variant_id": "v-1794321913366-8sh8m5",
+          "product_name": "CLEVARA Heavy Duty Lime & Scale Eliminator",
+          "variant_name": "Limited Batch #1",
+          "sku": "CLV-HC-LSE-099-LIM",
+          "unit_price": 720,
+          "quantity": 1,
+          "subtotal": 720,
+          "created_at": "2026-11-10T14:45:13.366Z"
+        }
+      ],
+      "created_at": "2026-11-10T14:45:13.366Z",
+      "updated_at": "2026-11-10T14:45:13.366Z"
+    },
+    {
+      "id": "ord-1794327386928-j8uigs",
+      "order_number": "CLV-386928-373",
+      "customer_id": "cust-1794327386928-gpc71p",
+      "customer_name": "XXX",
+      "customer_email": "abc@gmail.com",
+      "customer_phone": "980000000",
+      "delivery_address": "4",
+      "city": "Kathmandu",
+      "delivery_zone_id": "d1000000-0000-0000-0000-000000000001",
+      "delivery_zone": {
+        "id": "d1000000-0000-0000-0000-000000000001",
+        "name": "Kathmandu Valley (Inside Ring Road)",
+        "description": "Standard door-to-door delivery inside Ring Road, Kathmandu",
+        "estimated_delivery_time": "1 - 2 Business Days",
+        "fee": 100,
+        "is_active": true,
+        "created_at": "2026-11-10T14:45:12.817Z",
+        "updated_at": "2026-11-10T14:45:12.817Z"
+      },
+      "subtotal": 380,
+      "delivery_fee": 100,
+      "discount_amount": 0,
+      "total_amount": 480,
+      "payment_method": "esewa",
+      "payment_status": "paid",
+      "order_status": "delivered",
+      "tracking_code": "NP-FH0HFX-5721",
+      "items": [
+        {
+          "id": "oi-1794327386928-6v3vkn",
+          "order_id": "ord-1794327386928-j8uigs",
+          "product_id": "p2000000-0000-0000-0000-000000000002",
+          "variant_id": null,
+          "product_name": "CLEVARA Dual-Texture Exfoliating Loofah & Sisal Pad",
+          "variant_name": null,
+          "sku": "CLV-BC-LF-002",
+          "unit_price": 380,
+          "quantity": 1,
+          "subtotal": 380,
+          "created_at": "2026-11-10T16:16:26.928Z"
+        }
+      ],
+      "created_at": "2026-11-10T16:16:26.928Z",
+      "updated_at": "2026-11-10T16:25:01.447Z"
+    },
+    {
+      "id": "ord-1794363779610-vegh4u",
+      "order_number": "CLV-779610-612",
+      "customer_id": "cust-1794321913329-vtczb0",
+      "customer_name": "Aarav Shrestha",
+      "customer_email": "aarav.shrestha@example.np",
+      "customer_phone": "+977-9841234567",
+      "delivery_address": "Baluwatar, House #42",
+      "city": "Kathmandu",
+      "delivery_zone_id": "d1000000-0000-0000-0000-000000000001",
+      "delivery_zone": {
+        "id": "d1000000-0000-0000-0000-000000000001",
+        "name": "Kathmandu Valley (Inside Ring Road)",
+        "description": "Standard door-to-door delivery inside Ring Road, Kathmandu",
+        "estimated_delivery_time": "1 - 2 Business Days",
+        "fee": 100,
+        "is_active": true,
+        "created_at": "2026-11-10T14:45:12.817Z",
+        "updated_at": "2026-11-10T14:45:12.817Z"
+      },
+      "delivery_instructions": "Please call before arrival",
+      "subtotal": 1440,
+      "delivery_fee": 100,
+      "discount_amount": 0,
+      "total_amount": 1540,
+      "payment_method": "cod",
+      "payment_status": "pending",
+      "order_status": "cancelled",
+      "tracking_code": "NP-IRG1U6-8465",
+      "items": [
+        {
+          "id": "oi-1794363779610-fmogoe",
+          "order_id": "ord-1794363779610-vegh4u",
+          "product_id": "p-1794363779607-oht3bi",
+          "variant_id": "v-1794363779608-28gweq",
+          "product_name": "CLEVARA Heavy Duty Lime & Scale Eliminator",
+          "variant_name": "Citrus Scent",
+          "sku": "CLV-HC-LSE-099-CIT",
+          "unit_price": 720,
+          "quantity": 2,
+          "subtotal": 1440,
+          "created_at": "2026-11-11T02:22:59.610Z"
+        }
+      ],
+      "created_at": "2026-11-11T02:22:59.610Z",
+      "updated_at": "2026-11-11T02:22:59.612Z",
+      "admin_notes": "Cancellation approved: Customer contacted within cancellation window"
+    },
+    {
+      "id": "ord-1794363779615-rq8010",
+      "order_number": "CLV-779615-708",
+      "customer_id": "cust-1794321913366-ti8zt2",
+      "customer_name": "Buyer One",
+      "customer_email": "buyer1@nepal.np",
+      "customer_phone": "+977-9800000001",
+      "delivery_address": "Thamel",
+      "city": "Kathmandu",
+      "delivery_zone_id": "d1000000-0000-0000-0000-000000000001",
+      "delivery_zone": {
+        "id": "d1000000-0000-0000-0000-000000000001",
+        "name": "Kathmandu Valley (Inside Ring Road)",
+        "description": "Standard door-to-door delivery inside Ring Road, Kathmandu",
+        "estimated_delivery_time": "1 - 2 Business Days",
+        "fee": 100,
+        "is_active": true,
+        "created_at": "2026-11-10T14:45:12.817Z",
+        "updated_at": "2026-11-10T14:45:12.817Z"
+      },
+      "subtotal": 720,
+      "delivery_fee": 100,
+      "discount_amount": 0,
+      "total_amount": 820,
+      "payment_method": "cod",
+      "payment_status": "pending",
+      "order_status": "pending",
+      "tracking_code": "NP-CPHWST-6398",
+      "items": [
+        {
+          "id": "oi-1794363779615-n0c5kh",
+          "order_id": "ord-1794363779615-rq8010",
+          "product_id": "p-1794363779607-oht3bi",
+          "variant_id": "v-1794363779614-pfmnur",
+          "product_name": "CLEVARA Heavy Duty Lime & Scale Eliminator",
+          "variant_name": "Limited Batch #1",
+          "sku": "CLV-HC-LSE-099-LIM",
+          "unit_price": 720,
+          "quantity": 1,
+          "subtotal": 720,
+          "created_at": "2026-11-11T02:22:59.615Z"
+        }
+      ],
+      "created_at": "2026-11-11T02:22:59.615Z",
+      "updated_at": "2026-11-11T02:22:59.615Z"
+    }
+  ],
+  "promotions": [
+    {
+      "id": "pr100000-0000-0000-0000-000000000001",
+      "code": "CLEVARA10",
+      "title": "Welcome to CLEVARA Nepal",
+      "description": "Get 10% off your initial order above Rs. 1,000 across all cleaning categories.",
+      "discount_type": "percentage",
+      "discount_value": 10,
+      "min_order_amount": 1000,
+      "start_date": "2026-11-09T14:45:12.817Z",
+      "end_date": "2027-03-10T14:45:12.817Z",
+      "is_active": true,
+      "usage_limit": 500,
+      "times_used": 12,
+      "created_at": "2026-11-10T14:45:12.817Z"
+    },
+    {
+      "id": "pr200000-0000-0000-0000-000000000002",
+      "code": "CLEANHOME",
+      "title": "Home Care Seasonal Discount",
+      "description": "Flat Rs. 150 off on essential home care collections.",
+      "discount_type": "fixed",
+      "discount_value": 150,
+      "min_order_amount": 1500,
+      "start_date": "2026-11-09T14:45:12.818Z",
+      "end_date": "2027-01-09T14:45:12.818Z",
+      "is_active": true,
+      "usage_limit": 200,
+      "times_used": 4,
+      "created_at": "2026-11-10T14:45:12.817Z"
+    }
+  ],
+  "events": [
+    {
+      "id": "ev100000-0000-0000-0000-000000000001",
+      "title": "CLEVARA Spring Clean Festival",
+      "description": "Exclusive seasonal introductory discount on our highest rated multi-surface and auto maintenance essentials.",
+      "banner_url": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80",
+      "discount_percent": 15,
+      "start_date": "2026-11-08T14:45:12.818Z",
+      "end_date": "2026-11-30T14:45:12.818Z",
+      "is_active": true,
+      "is_limited_time": true,
+      "created_at": "2026-11-10T14:45:12.817Z"
+    }
+  ],
+  "cancellation_requests": [
+    {
+      "id": "can-1794321913331-77pxq4",
+      "order_id": "ord-1794321913329-4jkugc",
+      "order_number": "CLV-913329-942",
+      "customer_id": "cust-1794321913329-vtczb0",
+      "customer_name": "Aarav Shrestha",
+      "customer_email": "aarav.shrestha@example.np",
+      "reason": "Ordered wrong variant by accident",
+      "status": "approved",
+      "created_at": "2026-11-10T14:45:13.331Z",
+      "updated_at": "2026-11-10T16:36:18.366Z",
+      "admin_notes": "Customer contacted within cancellation window"
+    },
+    {
+      "id": "can-1794363779611-gf2c4p",
+      "order_id": "ord-1794363779610-vegh4u",
+      "order_number": "CLV-779610-612",
+      "customer_id": "cust-1794321913329-vtczb0",
+      "customer_name": "Aarav Shrestha",
+      "customer_email": "aarav.shrestha@example.np",
+      "reason": "Ordered wrong variant by accident",
+      "status": "approved",
+      "created_at": "2026-11-11T02:22:59.611Z",
+      "updated_at": "2026-11-11T02:22:59.612Z",
+      "admin_notes": "Customer contacted within cancellation window"
+    }
+  ],
+  "return_requests": [],
+  "refund_requests": [],
+  "reviews": [],
+  "contact_messages": [],
+  "website_content": [
+    {
+      "id": "wc100000-0000-0000-0000-000000000001",
+      "section_key": "announcement_bar",
+      "title": "Free delivery across Kathmandu Valley on orders over Rs. 2,000 | Authentic CLEVARA Formulations",
+      "subtitle": "Nationwide delivery available across Nepal",
+      "content_json": {
+        "badge": "OFFICIAL STORE",
+        "link": "/shop"
+      },
+      "is_active": true,
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    },
+    {
+      "id": "wc200000-0000-0000-0000-000000000002",
+      "section_key": "homepage_hero",
+      "title": "Purity in Formulation. Precision in Cleanliness.",
+      "subtitle": "Engineered consumer care essentials for your home, your body, and your vehicle. Delivered directly to your doorstep in Nepal.",
+      "content_json": {
+        "cta_primary": {
+          "text": "Explore Collection",
+          "url": "/shop"
+        },
+        "cta_secondary": {
+          "text": "Our Standards",
+          "url": "/about"
+        },
+        "banner_image": "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1600&q=80"
+      },
+      "is_active": true,
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    },
+    {
+      "id": "wc300000-0000-0000-0000-000000000003",
+      "section_key": "why_choose_clevara",
+      "title": "Why Discerning Households Trust CLEVARA",
+      "subtitle": "We do not white-label generic products. We engineer high-performance formulas tailored for Nepali living conditions.",
+      "content_json": {
+        "pillars": [
+          {
+            "title": "Strict Quality Control",
+            "desc": "Every batch is inspected for consistency, pH stability, and performance safety."
+          },
+          {
+            "title": "Transparent Deliveries",
+            "desc": "Fixed, fair delivery pricing throughout Nepal with zero surprise markups."
+          },
+          {
+            "title": "Customer-First Protections",
+            "desc": "Clear return workflows and a 50% refund policy on verified claims."
+          }
+        ]
+      },
+      "is_active": true,
+      "updated_at": "2026-11-10T14:45:12.817Z"
+    }
+  ]
+}
